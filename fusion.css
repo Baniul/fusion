@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  position: relative;
+}
+.main-background img {
+  position: fixed;
+  z-index: -11;
+  background-position: top top;
+  background-size: cover;
+  width: 100%;
+}
+.hero-div {
+  color: white;
+}
+.hero-div h1 {
+  font-weight: 600;
+}
+.fusion-section {
+  background-color: white;
+}
+
+.destination-section {
+  background-color: white;
+}
+.plan-btn {
+  margin-bottom: 60px;
+}
+
+.navbar {
+  width: 100%;
+  background: rgba(202, 202, 202, 0.663);
+}
+.nav-item a {
+  color: black !important;
+}
+.navbar-brand {
+  background: white;
+  padding: 10px 15px;
+  color: #ff4639 !important;
+  font-weight: bolder;
+  border-radius: 6px;
+}
+
+button.plan-btn a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+section.hero-section {
+  padding-top: 80px;
+}
+
+section.hero-section p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+.fusion-box {
+  width: 300px;
+  margin: 50px auto;
+  box-shadow: 2px 1px 4px 1px #a0a0a0;
+  padding: 60px 25px;
+  backdrop-filter: blur(20px);
+}
+.fusion-box i {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #fbad27;
+}
+.fusion-title {
+  margin-bottom: 15px;
+}
+.destination {
+  margin-bottom: 50px;
+  color: white;
+  position: relative;
+}
+.destination h3 {
+  position: absolute;
+  bottom: 0px;
+  left: 170px;
+}
+
+
+/* responsive part  */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  section.hero-section p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 35px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  section.hero-section h1 {
+    font-size: 45px;
+    margin-bottom: 22px;
+  }
+  .hero-div {
+    color: black !important;
+  }
+  section.hero-section p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 35px;
+  }
+  button.plan-btn {
+    padding: 12px 30px;
+    background: #fbad27;
+    border-style: none;
+    border-radius: 20px;
+  }
+}
+button.plan-btn {
+  padding: 08px 12px;
+  background: #fbad27;
+  border-style: none;
+  border-radius: 10px;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  section.hero-section h1 {
+    font-size: 60px;
+    margin-bottom: 22px;
+  }
+  button.plan-btn {
+    padding: 15px 35px;
+    background: #fbad27;
+    border-style: none;
+    border-radius: 20px;
+  }
+  .fusion-box {
+    background: rgba(255, 255, 255, 0.619);
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  section.hero-section h1 {
+    font-size: 65px;
+    margin-bottom: 22px;
+  }
+  button.plan-btn {
+    padding: 15px 45px;
+    background: #fbad27;
+    border-style: none;
+    border-radius: 20px;
+  }
+  .fusion-box {
+    background: rgba(255, 255, 255, 0.619);
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  section.hero-section h1 {
+    font-size: 70px;
+    margin-bottom: 22px;
+  }
+  .fusion-box {
+    background: rgba(255, 255, 255, 0.619);
+  }
+  .heading-white {
+    background-color: rgba(0, 0, 0, 0.104);
+  }
+  .fusion-section {
+    background-color: transparent;
+  }
+}
